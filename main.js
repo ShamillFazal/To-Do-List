@@ -7,6 +7,8 @@ addToDo.addEventListener('click', addFunc)
 function addFunc(){
  let para = document.createElement('p')
  itemContainer.appendChild(para)
+ para.innerText = inputField.value
+ inputField.value = "";
 }
 
 

@@ -1,0 +1,31 @@
+.container {
+    width: 360px;
+    
+
+}
+html, body {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.itemContainer{
+    display: flex;
+    justify-content: center;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    width: 300px;
+    height: 30px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#addToList {
+    height: 36px;
+    vertical-align: middle;
+}
