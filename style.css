@@ -1,3 +1,7 @@
+*:root {
+    font-family: cursive;
+}
+
 .container {
     width: 360px;
     
@@ -6,6 +10,7 @@
 html, body {
     width: 50%;
     margin: 0 auto;
+    background-color: antiquewhite;
 
 }
 .itemContainer{
@@ -16,6 +21,7 @@ html, body {
 h1 {
     display: flex;
     justify-content: center;
+    text-decoration: underline red;
 }
 
 #input {
@@ -23,9 +29,16 @@ h1 {
     height: 30px;
     vertical-align: middle;
     justify-content: center;
+    
 }
 
 #addToList {
     height: 36px;
     vertical-align: middle;
 }
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
