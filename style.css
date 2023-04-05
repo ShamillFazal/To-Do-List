@@ -1,44 +1,52 @@
-*:root {
-    font-family: cursive;
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  font-family: cursive;
 }
 
 .container {
-    width: 360px;
-    
-
+  width: 360px;
 }
-html, body {
-    width: 50%;
-    margin: 0 auto;
-    background-color: antiquewhite;
 
+#itemContainer {
+  /* display: flex;
+  justify-content: center; */
+  padding: 0 56px 6px 16px;
+  line-height: 25px;
+  font-family: "Dancing Script", cursive;
+  font-size: 19px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
 }
-.itemContainer{
-    display: flex;
-    justify-content: center;
 
-}
-h1 {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline red;
+.page-title {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline red;
 }
 
 #input {
-    width: 300px;
-    height: 30px;
-    vertical-align: middle;
-    justify-content: center;
-    
+  width: 300px;
+  height: 30px;
+  vertical-align: middle;
+  justify-content: center;
 }
 
 #addToList {
-    height: 36px;
-    vertical-align: middle;
+  height: 36px;
+  vertical-align: middle;
 }
 
-img {
-    height: 30px;
-    width: 30px;
+.notebook-line {
+  width: 50%;
 }
 
+.lines {
+  height: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+}
+
+p {
+  margin: 0;
+}
