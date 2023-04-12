@@ -6,7 +6,11 @@ body {
 }
 
 .container {
-  width: 360px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  height: 500px;
+  border-radius: 10px;
 }
 
 #itemContainer {
@@ -31,20 +35,40 @@ body {
   height: 30px;
   vertical-align: middle;
   justify-content: center;
+  margin-top: 15px;
+  margin: 0 auto;
+  margin-left: 22px;
+  font-family: "Dancing Script", cursive;
+  font-size: 19px;
 }
 
 #addToList {
-  height: 36px;
-  vertical-align: middle;
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-sizing: border-box;
+  color: #39739d;
+  display: inline-block;
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.15385;
+  /* margin: 0; */
+  padding: 8px 0.8em;
+  /* position: relative; */
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
 }
 
 .notebook-line {
-  width: 50%;
+  width: 82%;
 }
 
 .lines {
   height: 100%;
   background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+  margin-left: 22px;
 }
 
 p {
